@@ -7,7 +7,7 @@ import os
 
 st.set_page_config(page_title="White Spot Classifier", layout="centered")
 
-model = tf.keras.models.load_model("white_spot_cnn_model1.h5")
+model = tf.keras.models.load_model("white_spot_cnn_model.tflite")
 labels = ['Healthy', 'Infected']
 
 st.title("🐟 White Spot Classifier Dashboard")
